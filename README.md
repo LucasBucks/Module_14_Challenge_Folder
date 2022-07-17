@@ -5,6 +5,8 @@ Baseline Anaylsis:
 
 Our baseline model does a pretty great job of modeling the data and then outperforming the actual results. The model performs well in a "Long" scenario or better said when "1" is the predicted return.  This is backed up by the plot showing outperformance during up market scenarios ("Buy" scenarios") and the recall grading out to .96.  The model underperforms quite a bit to actual returns when "Short" scenarios (When our predicted return is -1).  This is confirmed by showing steeper declines in the plot and a recall of .04.  Thankfully, the "Longs" were more prevalent that the "Short" scenarios during this time frame.  This could be the impact of the training time fram happening during a more positive market environment vs. negative (2288 instances of a 1 vs 1804 for -1).
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
                   precision    recall  f1-score   support
 
         -1.0       0.43      0.04      0.07      1804
