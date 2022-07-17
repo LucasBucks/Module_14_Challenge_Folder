@@ -24,7 +24,7 @@ Linear Regression Analysis:
 
 The results for the Linear Regression analysis are quite mixed and inconclusive.  When looking at the plot, the linear regression starts off with underperformance relative to the actual returns.  This is a "Short" market scenario in which the market is on a decline.  When the market turns to a "long" scenario, the model has quite impressive outperromance until the next "Short" Scenario where it underperforms again.  When the situation calls for a "long" environment again, the outperformance returns and then all of a sudden, the model stops working and falls apart.  The linear regression back test visualization chart would lead me to believe this is not a reliable model to use for our data.  It's too volatile and lowers our overall recall score for the Long position.  It does have better numbers on the Short position but it is too unpredictable to be relied upon.
 
-![alt text]
+![alt text](https://github.com/LucasBucks/Module_14_Challenge_Folder/blob/main/Module_14_Challenge/linear_reg_plot.png)
 
                   precision    recall  f1-score   support
 
